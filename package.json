@@ -1,0 +1,12 @@
+{
+  "name": "binaryoperations",
+  "version": "1.0.0",
+  "description": "Programa que realiza operações aritméticas com numeros binários.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Renan Queiroz",
+  "license": "ISC"
+}
