@@ -1,6 +1,6 @@
 # BINARY OPERATIONS
 
-Projeto desenvolvido por [Renan Queiroz](https://github.com/renanq), como parte do processo seletivo para vaga na Digistart. o Desafio consta em criar um programa, em Node.js, capaz de operar dois números de 0-255, informados em binário, e dar uma resposta também em binário, aceitando os operadores "+", "-", "*", "/" e "%".
+Projeto desenvolvido por [Renan Queiroz](https://github.com/renanq), como parte do processo seletivo para vaga na Digistarts. o Desafio consta em criar um programa, em Node.js, capaz de operar dois números de 0-255, informados em binário, e dar uma resposta também em binário, aceitando os operadores "+", "-", "*", "/" e "%".
 
 
 # Instalação / Execução
