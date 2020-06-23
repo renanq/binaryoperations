@@ -9,33 +9,33 @@ const rl = readline.createInterface({
 const operadores = ['+', '-', '*', '/', '%'];
 
 //numeros não pertencentes a binarios
-var naoBinario = ['+','-','.',',','2','3','4','5','6','7','8','9'];
+const naoBinario = ['+','-','.',',','2','3','4','5','6','7','8','9'];
 
 //ajusta formato do binario para 8 bits
-function ajustarBinario (valor){
+const ajustarBinario = (valor) => {
   var ajustado = '';
   for (var i=0; i<(8-valor.length); i++){
     ajustado = ajustado + '0';
   }
   ajustado = ajustado + valor;
   return ajustado;
-}
+};
 
 //converte binario em decimal
-function converterDecimal (valor) {
+const converterDecimal = (valor) => {
   var decimal = parseInt(String(valor), 2);
   return decimal;
-}
+};
 
 //conerte valor decimal em binario
-function converterBinario (valor) {
+const converterBinario = (valor) => {
   var binario = Number(valor).toString(2);
   return binario;
-}
+};
 
 //validacao do numero binario digitado (verifica se é numero, verifica se é binario e 
 //verifica se está entra 0 e 255
-function validaNumero (numero) {
+const validaNumero = (numero) => {
   var teste = false;
 
   //verifica se é numero
@@ -58,7 +58,7 @@ function validaNumero (numero) {
   return teste;
 };
 
-//lendo a operação
+
 rl.question('Digite a operação (+, -, *, /, %):', operacao => {
   //validação da opração digitada
   //cancela a operação caso seja invalida
